@@ -1,6 +1,5 @@
-import Skills from "../skills/Skills"
 
-const About = ({ skills }) => {
+const AboutPage = ({ skills }) => {
     return (
         <div className="AboutContainer">
 
@@ -36,4 +35,4 @@ const About = ({ skills }) => {
     )
 }
 
-export default About
+export default AboutPage

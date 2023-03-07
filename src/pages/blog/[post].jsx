@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router'
 import React from 'react'
 
-const post = ({ posts }) => {
+const Post = ({ posts }) => {
   const router = useRouter();
 
   const displayPost = (slug) => {
@@ -56,4 +56,4 @@ export async function getServerSideProps() {
   return { props: { posts } }
 }
 
-export default post
+export default Post

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router'
 import React from 'react'
 
-const project = ({ projects }) => {
+const Project = ({ projects }) => {
     console.log(projects)
   const router = useRouter();
 
@@ -57,4 +57,4 @@ export async function getServerSideProps() {
   return { props: { projects } }
 }
 
-export default project
+export default Project

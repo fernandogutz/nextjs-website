@@ -4,7 +4,7 @@ import Header from '@/components/ui/Header'
 import { setActiveMenuLink } from '@/functions/setActiveMenuLink'
 import React, { useEffect } from 'react'
 
-const contact = () => {
+const ContactPage = () => {
 
   useEffect(() => {
     setActiveMenuLink('contact');
@@ -27,4 +27,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default ContactPage

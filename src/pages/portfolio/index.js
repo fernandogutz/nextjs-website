@@ -5,7 +5,7 @@ import Header from '@/components/ui/Header'
 import { setActiveMenuLink } from '@/functions/setActiveMenuLink'
 import { useEffect } from 'react'
 
-const blog = ({ projects }) => {
+const Blog = ({ projects }) => {
 
     useEffect(() => {
         setActiveMenuLink('portfolio');
@@ -40,4 +40,4 @@ export async function getServerSideProps() {
     return { props: { projects } }
 }
 
-export default blog
+export default Blog
