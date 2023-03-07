@@ -4,7 +4,7 @@ import Header from '@/components/ui/Header'
 import { setActiveMenuLink } from '@/functions/setActiveMenuLink'
 import React, { useEffect } from 'react'
 
-const About = ({ skills }) => {
+const AboutPage = ({ skills }) => {
 
   useEffect(() => {
     setActiveMenuLink('about');
@@ -36,4 +36,4 @@ export async function getServerSideProps() {
   return { props: { skills } }
 }
 
-export default About
+export default AboutPage

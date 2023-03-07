@@ -1,5 +1,5 @@
 
-const AboutPage = ({ skills }) => {
+const About = ({ skills }) => {
     return (
         <div className="AboutContainer">
 
@@ -35,4 +35,4 @@ const AboutPage = ({ skills }) => {
     )
 }
 
-export default AboutPage
+export default About
