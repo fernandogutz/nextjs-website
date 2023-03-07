@@ -1,0 +1,55 @@
+.ListOfPosts {
+    padding-top: 100px;
+}
+
+.Posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.PostItemCard {
+    background-color: var(--bg2);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--bg4);
+    margin-bottom: 16px;
+}
+
+.PostItemCard__category {
+    background-color: var(--color5);
+    border-radius: 12px;
+    padding: 4px 8px;
+    color: var(--bg1);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.PostItemCard__title {
+    color: var(--primary);
+    font-size: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.PostItemCard__date {
+    color: var(--bg5);
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.PostItemCard .card__link {
+    text-align: end;
+    display: block;
+}
+
+@media (max-width:1100px) {
+    .Posts {
+        display: block;
+    }
+}

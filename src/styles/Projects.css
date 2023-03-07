@@ -1,0 +1,16 @@
+.Projects {
+    padding-top: 100px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+
+@media (max-width: 750px) {
+    .projects {
+        display: block;
+    }
+}
