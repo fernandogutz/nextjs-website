@@ -1,14 +1,8 @@
 import { setFormatDate } from '@/functions/setFormatDate'
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const PostItemCard = ({id, category, date, title, excerpt, slug}) => {
-
-    useEffect(() => {
-      setFormatDate(date);
-    }, [])
-    
-
   return (
     <article className="PostItemCard" key={id}>
         <p className="PostItemCard__category">{category}</p>

@@ -1,4 +1,3 @@
-import AppProvider from '@/context/AppProvider';
 
 import '@/styles/index.css'
 import '@/styles/HeroHome.css'
@@ -16,6 +15,6 @@ import '@/styles/PostContent.css'
 
 export default function App({ Component, pageProps}) {
 
-  return <AppProvider><Component {...pageProps}/></AppProvider> 
+  return <Component {...pageProps}/>
     
 }

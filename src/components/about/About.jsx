@@ -1,10 +1,13 @@
+import Image from "next/image"
 
 const About = ({ skills }) => {
     return (
         <div className="AboutContainer">
 
             <div className="About">
-                <img className="About__img" src="/fernando.jpg" alt="Fernando Gutz Full Stack Developer" />
+                <div className="About__img" width="300" height="300">
+                    <Image src="/fernando.jpg" fill alt="Fernando Gutz Full Stack Developer" />
+                </div>
                 <h1 className="titleOfSection About__title">
                     <span className='primaryColor'>{'< '}</span>
                     Sobre Mí
