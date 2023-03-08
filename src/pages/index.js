@@ -52,13 +52,13 @@ export default function Home({ posts, skills, projects }) {
 // This gets called on every request
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch('http://localhost:3000/api/posts')
+  const res = await fetch('/api/posts')
   const posts = await res.json()
 
-  const res2 = await fetch('http://localhost:3000/api/skills')
+  const res2 = await fetch('/api/skills')
   const skills = await res2.json()
 
-  const res3 = await fetch('http://localhost:3000/api/projects')
+  const res3 = await fetch('/api/projects')
   const projects = await res3.json()
 
   // Pass data to the page via props

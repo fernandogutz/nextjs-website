@@ -29,7 +29,9 @@ const AboutPage = ({ skills }) => {
 
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch('http://localhost:3000/api/skills')
+  //const res = await fetch('http://localhost:3000/api/skills')
+  const res = await fetch('/api/skills')
+
   const skills = await res.json()
 
   // Pass data to the page via props
