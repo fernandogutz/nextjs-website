@@ -1,5 +1,8 @@
+import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import React from 'react'
+
 
 const Header = () => {
   return (
@@ -13,13 +16,13 @@ const Header = () => {
           </div>
 
           <label htmlFor="checkMenu" id="barMenu" className="header__btn">
-              Menú <i className="fa-solid fa-bars"></i>
+              Menú <i><FontAwesomeIcon icon={faBars} /></i>
           </label>
           <input type="checkbox" id="checkMenu" name="checkMenu"/>
 
           <nav className="header__nav" id="navMenu">
               <label htmlFor="checkMenu" id="xMenu" className="header__btn">
-                  Cerrar <i className="fa-solid fa-xmark"></i>
+                  Cerrar <i><FontAwesomeIcon icon={faClose} /></i>
               </label>
               <Link id="home" href="/">Inicio</Link>
               <Link id="portfolio" href="/portfolio">Portfolio</Link>

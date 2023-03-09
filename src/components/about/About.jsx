@@ -1,3 +1,5 @@
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
 
 const About = ({ skills }) => {
@@ -26,9 +28,9 @@ const About = ({ skills }) => {
                     Me divierto creando productos y experiencias digitales desde cero en torno a temas que me apasionan y disfruto compartiendo mi conocimiento mediante asesorías, artículos y contenido en redes sociales.
                 </p>
                 <div className="contact__rrss">
-                    <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>
                     {/* <a className="btn-primary" href="https://www.instagram.com/fernandogutzz/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a> */}
-                    <a className="btn-primary" href="https://github.com/fernandogutz" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
+                    <a className="btn-primary" href="https://github.com/fernandogutz" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faGithub} /></i></a>
                 </div>
 
             </div>

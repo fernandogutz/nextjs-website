@@ -1,3 +1,5 @@
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
 
 const ProjectItemCard = ({tag, urlImg, altImg, title, description, urlBtn, textBtn}) => {
@@ -8,7 +10,7 @@ const ProjectItemCard = ({tag, urlImg, altImg, title, description, urlBtn, textB
       <section className="project__contentSection">
           <h3 className="project__title">{title}</h3>
           <div className="project__description" dangerouslySetInnerHTML={{ __html: description }}></div>
-          <Link href={`/portfolio/${urlBtn}`} rel="noreferrer" className="card__link">{textBtn} <i className="fa-solid fa-angle-right"></i></Link>
+          <Link href={`/portfolio/${urlBtn}`} rel="noreferrer" className="card__link">{textBtn} <i className='AngleRightIcon'><FontAwesomeIcon icon={faAngleRight} /></i></Link>
       </section>
     </article>
   )

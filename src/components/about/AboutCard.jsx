@@ -1,3 +1,5 @@
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
 
 const AboutCard = () => {
@@ -16,7 +18,7 @@ const AboutCard = () => {
                 <p>Soy un desarrollador de software enfocado en tecnologías web.</p>
                 <br></br>
                 <p>Suelo programar tanto del lado del cliente como del servidor, sin embargo, me especializo en Frontend para tener un contacto más directo con los usuarios.</p>
-                <Link className="card__link" href='/about'>Más sobre mí {'>>'}</Link>
+                <Link className="card__link" href='/about'>Más sobre mí <i className='AngleRightIcon'><FontAwesomeIcon icon={faAngleRight} /></i></Link>
             </section>
         </div>
     )

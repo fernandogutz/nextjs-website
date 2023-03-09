@@ -54,4 +54,6 @@
     border-radius: 12px;
     margin-bottom: 16px;
     overflow-x: auto;
+    display: block;
+    max-width: 72vw;
 }
