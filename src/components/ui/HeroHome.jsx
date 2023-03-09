@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars} from '@fortawesome/free-solid-svg-icons'
+import Link from "next/link";
 
 const HeroHome = () => {
 
@@ -13,8 +12,8 @@ const HeroHome = () => {
             <h1 className="hero__title">Frontend Web <span>Developer</span></h1>
             {/* <p className="hero__subtitle">Enfocado en la creación de productos y experiencias digitales para proyectos que me inspiran.</p> */}
             <div className="hero__buttons">
-              <a className="hero__btn btn-primary" href="#proyectos">Ver Proyectos</a>
-              <a className="hero__btn btn-secondary hero__btn--contact" href="#contacto">Contacto</a>
+              <Link className="hero__btn btn-primary" href="/portfolio">Ver Proyectos</Link>
+              <Link className="hero__btn btn-secondary hero__btn--contact" href="/contact">Contacto</Link>
             </div>
           </div>
 
