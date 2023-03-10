@@ -47,13 +47,27 @@ const Post = ({ posts }) => {
 }
 
 // This gets called on every request
-export async function getServerSideProps() {
+export async function getStaticProps() {
   // Fetch data from external API
   const res = await fetch('https://nextjs-website-ashy.vercel.app/api/posts')
   const posts = await res.json()
 
   // Pass data to the page via props
   return { props: { posts } }
+}
+
+export async function getStaticPaths() {
+  const res = await fetch('https://nextjs-website-ashy.vercel.app/api/posts')
+  const posts = await res.json()
+
+  // Get the paths we want to pre-render based on posts
+  const paths = posts.map((post) => ({
+    params: { post: post.slug },
+  }))
+
+  // We'll pre-render only these paths at build time.
+  // { fallback: false } means other routes should 404.
+  return { paths, fallback: false }
 }
 
 export default Post

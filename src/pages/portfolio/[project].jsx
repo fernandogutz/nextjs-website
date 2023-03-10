@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import React from 'react'
 
 const Project = ({ projects }) => {
-    console.log(projects)
   const router = useRouter();
 
   const displayPost = (slug) => {
@@ -16,7 +15,6 @@ const Project = ({ projects }) => {
       return <h1>ERROR 404</h1>
     }
 
-
     return (
       <div className='Post'>
         <div className="breadcrumbs">
@@ -24,9 +22,6 @@ const Project = ({ projects }) => {
         </div>
         <PostContent post={projectItem}></PostContent>
       </div>
-
-
-
     )
   }
 
@@ -35,11 +30,7 @@ const Project = ({ projects }) => {
       <Header></Header>
       <div className="main-container">
         <div className="content-container">
-
-          {
-            displayPost(router.query.project)
-          }
-
+          {displayPost(router.query.project)}
         </div>
       </div>
       <Footer></Footer>
@@ -47,14 +38,22 @@ const Project = ({ projects }) => {
   )
 }
 
-// This gets called on every request
-export async function getServerSideProps() {
-  // Fetch data from external API
+export async function getStaticPaths() {
   const res = await fetch('https://nextjs-website-ashy.vercel.app/api/projects')
   const projects = await res.json()
 
-  // Pass data to the page via props
-  return { props: { projects } }
+  const paths = projects.map(project => ({
+    params: { project: project.slug }
+  }))
+
+  return { paths, fallback: false }
+}
+
+export async function getStaticProps({ params }) {
+  const res = await fetch(`https://nextjs-website-ashy.vercel.app/api/projects?slug=${params.project}`)
+  const projects = await res.json()
+
+  return { props: { projects: projects[0] } }
 }
 
 export default Project

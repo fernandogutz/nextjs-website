@@ -28,7 +28,7 @@ const Blog = ({ posts }) => {
 }
 
 // This gets called on every request
-export async function getServerSideProps() {
+export async function getStaticProps() {
     // Fetch data from external API
     const res = await fetch('https://nextjs-website-ashy.vercel.app/api/posts')
     const posts = await res.json()
