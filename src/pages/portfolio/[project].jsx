@@ -9,7 +9,7 @@ const Project = ({ projects }) => {
   const router = useRouter();
 
   const displayPost = (slug) => {
-    const projectItem = projects.find(project => project.slug == slug); // evidentemente esto no funcionará tal cual, debo encontrar por slug
+    const projectItem = projects.find(project => project.slug == slug); 
 
     if (!projectItem) {
       return <h1>ERROR 404</h1>
@@ -53,7 +53,7 @@ export async function getStaticProps({ params }) {
   const res = await fetch(`https://nextjs-website-ashy.vercel.app/api/projects?slug=${params.project}`)
   const projects = await res.json()
 
-  return { props: { projects: projects[0] } }
+  return { props: { projects: [projects] } }
 }
 
 export default Project
