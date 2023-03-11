@@ -49,11 +49,11 @@ export async function getStaticPaths() {
   return { paths, fallback: false }
 }
 
-export async function getStaticProps({ params }) {
-  const res = await fetch(`https://nextjs-website-ashy.vercel.app/api/projects?slug=${params.project}`)
+export async function getStaticProps() {
+  const res = await fetch(`https://nextjs-website-ashy.vercel.app/api/projects`)
   const projects = await res.json()
 
-  return { props: { projects: [projects] } }
+  return { props: { projects: projects} }
 }
 
 export default Project
