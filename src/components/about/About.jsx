@@ -16,16 +16,22 @@ const About = ({ skills }) => {
                     <span className='primaryColor'>{' />'}</span>
                 </h1>
                 <p className="About__bio">
-                    Soy un desarrollador de software enfocado en tecnologías web.
+                    Me apasiona la creación de productos digitales y experiencias que resuelvan los problemas de los usuarios y ayuden a las empresas a alcanzar sus objetivos. 
                     <br />
                     <br />
-                    Suelo programar tanto del lado del cliente como del servidor, sin embargo, me especializo en Frontend para tener un contacto más directo con los usuarios y complementar mis skills técnicas con Diseño UX.
+                    He trabajado con una variedad de empresas en diferentes proyectos, principalmente enfocado en Plataformas Web, desarrollando más de 20 sitios en rubros muy variados.
                     <br />
                     <br />
-                    Actualmente estoy enfocado en React y en paralelo experimento con tecnologías para desarrollar sitios web inmersivos (Blender, Three.js, etcétera).
+                    Con una mentalidad centrada en el usuario, me dedico a comprender profundamente los problemas de las personas y co-crear soluciones tecnológicas relevantes con ellos. 
                     <br />
                     <br />
-                    Me divierto creando productos y experiencias digitales desde cero en torno a temas que me apasionan y disfruto compartiendo mi conocimiento mediante asesorías, artículos y contenido en redes sociales.
+                    Actualmente me especializo en Frontend con React y Next.js, aunque también suelo usar PHP, JavaScript ES6+, jQuery, SQL y CMS WordPress. 
+                    <br />
+                    <br />
+                    Además, últimamente he estado experimentando bastante con la API de Open AI para crear productos personalizados utilizando Inteligencia Artificial y con tecnologías como Three.js para crear experiencias web inmersivas.
+                    <br />
+                    <br />
+                    Conoce más sobre mí y los proyectos en los que trabajo actualmente en mi sitio web FernandoGutz.com.
                 </p>
                 <div className="contact__rrss">
                     <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>
