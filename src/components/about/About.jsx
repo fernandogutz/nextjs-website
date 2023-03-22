@@ -31,7 +31,7 @@ const About = ({ skills }) => {
                     Además, últimamente he estado experimentando bastante con la API de Open AI para crear productos personalizados utilizando Inteligencia Artificial y con tecnologías como Three.js para crear experiencias web inmersivas.
                     <br />
                     <br />
-                    Conoce más sobre mí y los proyectos en los que trabajo actualmente en mi sitio web FernandoGutz.com.
+                    Conoce más sobre mí en mis redes sociales.
                 </p>
                 <div className="contact__rrss">
                     <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>
