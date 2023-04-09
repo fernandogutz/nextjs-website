@@ -27,6 +27,7 @@ const Header = () => {
               <Link id="home" href="/">Inicio</Link>
               <Link id="portfolio" href="/portfolio">Portfolio</Link>
               <Link id="blog" href="/blog">Blog</Link>
+              <Link id="blog" href="/skills">Skills</Link>
               <Link id="about" href="/about">Sobre mí</Link>
               <Link id="contact" href="/contact">Contacto</Link>
               {/* <a href="https://drive.google.com/file/d/1BTIIF6HUJf3axr3C7cM61h15AtSk3P3z/view?usp=sharing" target='blank'>CV</a> */}

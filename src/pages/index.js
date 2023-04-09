@@ -26,11 +26,13 @@ export default function Home({ posts, skills, projects }) {
         <div className="content-container">
 
           <AboutCard></AboutCard>
+          
+          <Projects projects={projects} limit={4}></Projects>
+          
           <Skills listOfSkills={skills.listOfSkills}></Skills>
 
           <ListOfPosts posts={posts} limit={3}></ListOfPosts>
 
-          <Projects projects={projects} limit={4}></Projects>
 
           <hr className="separator"></hr>
 

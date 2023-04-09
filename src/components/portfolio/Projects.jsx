@@ -1,10 +1,17 @@
+import { useState } from "react";
 import ProjectItemCard from "./ProjectItemCard"
 
 const Projects = ({ projects, limit }) => {
 
-    const displayPost = (project) => {
-        
-    }
+    const [projectCategory, setProjectCategory] = useState('plataforma');
+    const onCategoryChange = (e) => {
+        //console.log(e.target.attributes.id.value);
+        const newCat = e.target.attributes.id.value;
+        setProjectCategory(newCat);
+        document.querySelector('.activeCategoryProjects').classList.remove('activeCategoryProjects');
+        document.querySelector(`#${newCat}`).className = 'activeCategoryProjects';
+
+    } 
 
     return (
         <div className="Projects">
@@ -13,19 +20,30 @@ const Projects = ({ projects, limit }) => {
                 Portfolio
                 <span className='primaryColor'>{' />'}</span>
             </h2>
+
+            <div className='techFilters'>
+                <button className='activeCategoryProjects' id='plataforma' onClick={onCategoryChange}>Aplicaciones web</button>
+                <button id='website' onClick={onCategoryChange}>Sitios web</button>
+                <button id='ecommerce' onClick={onCategoryChange}>E-Commerce</button>
+            </div>
+
             <div className="projects">
                 {
                     projects.map((project, index) => (
-                        <ProjectItemCard
-                            key={project.id}
-                            tag={project.slug}
-                            urlImg={project.acf.img}
-                            altImg={project.slug}
-                            title={project.title.rendered}
-                            description={project.excerpt.rendered}
-                            urlBtn={project.slug}
-                            textBtn='Detalles del proyecto'
-                        />
+
+                        project.acf.tag == projectCategory ?
+                            <ProjectItemCard
+                                key={project.id}
+                                tag={project.slug}
+                                urlImg={project.acf.img}
+                                altImg={project.slug}
+                                title={project.title.rendered}
+                                description={project.excerpt.rendered}
+                                urlBtn={project.slug}
+                                textBtn='Detalles del proyecto'
+                            />
+
+                        : null
                     ))
                 }
 

@@ -16,7 +16,7 @@ const About = ({ skills }) => {
                     <span className='primaryColor'>{' />'}</span>
                 </h1>
                 <p className="About__bio">
-                    Me apasiona la creación de productos digitales y experiencias que resuelvan los problemas de los usuarios y ayuden a las empresas a alcanzar sus objetivos. 
+                    Me apasiona la creación de productos y experiencias digitales. 
                     <br />
                     <br />
                     He trabajado con una variedad de empresas en diferentes proyectos, principalmente enfocado en Plataformas Web, desarrollando más de 20 sitios en rubros muy variados.
@@ -28,7 +28,7 @@ const About = ({ skills }) => {
                     Actualmente me especializo en Frontend con React y Next.js, aunque también suelo usar PHP, JavaScript ES6+, jQuery, SQL y CMS WordPress. 
                     <br />
                     <br />
-                    Además, últimamente he estado experimentando bastante con la API de Open AI para crear productos personalizados utilizando Inteligencia Artificial y con tecnologías como Three.js para crear experiencias web inmersivas.
+                    Últimamente he estado experimentando bastante con la API de Open AI para crear productos personalizados utilizando Inteligencia Artificial y con tecnologías como Three.js para crear experiencias web inmersivas.
                     <br />
                     <br />
                     Conoce más sobre mí en mis redes sociales.

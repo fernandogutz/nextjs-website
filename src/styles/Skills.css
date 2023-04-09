@@ -14,7 +14,7 @@
     padding-bottom: 80px;
 }
 
-.techFilters {
+.techFilters button {
     margin-top: 12px;
 }
 
@@ -28,7 +28,7 @@
     border-radius: 10px;
 }
 
-.techFilters button:hover, .techFilters .activeCategory{
+.techFilters button:hover, .techFilters .activeCategory, .techFilters .activeCategoryProjects{
     background-color: var(--color2);
     color: var(--bg4);
 }

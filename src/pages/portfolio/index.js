@@ -20,6 +20,28 @@ const Blog = ({ projects }) => {
             <div className="main-container">
                 <div className="content-container">
 
+                    {/**
+                     * FILTROS
+                     * 
+                     * 1) Aplicaciones web
+                     *  - GodKout
+                     *  - Be Digital Platform
+                     *  - BeDigitalChat
+                     *  - Pomotask
+                     * 
+                     * 2) Sitios web
+                     *  - Mars 3D
+                     *  - AI Image generator
+                     *  - Innova Dental
+                     *  - FernandoGutz
+                     * 
+                     * 3) E-Commerce
+                     *  - Shop Godkout
+                     *  - Fercia
+                     *  - Pet Bed
+                     *  - Clothing Race
+                     */}
+
                     <Projects projects={projects} ></Projects>
 
                 </div>
