@@ -26,7 +26,7 @@ export default function Home({ posts, skills, projects }) {
         <div className="content-container">
 
           <AboutCard></AboutCard>
-          
+
           <Projects projects={projects} limit={4}></Projects>
           
           <Skills listOfSkills={skills.listOfSkills}></Skills>
@@ -54,13 +54,13 @@ export default function Home({ posts, skills, projects }) {
 // This gets called on every request
 export async function getStaticProps() {
   // Fetch data from external API
-  const res = await fetch('https://nextjs-website-ashy.vercel.app/api/posts')
+  const res = await fetch('https://blog.fernandogutz.com/wp-json/wp/v2/posts?per_page=100')
   const posts = await res.json()
 
   const res2 = await fetch('https://nextjs-website-ashy.vercel.app/api/skills')
   const skills = await res2.json()
 
-  const res3 = await fetch('https://nextjs-website-ashy.vercel.app/api/projects')
+  const res3 = await fetch('https://blog.fernandogutz.com/wp-json/wp/v2/project?per_page=100')
   const projects = await res3.json()
 
   // Pass data to the page via props

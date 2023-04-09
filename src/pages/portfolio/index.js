@@ -55,7 +55,7 @@ const Blog = ({ projects }) => {
 // This gets called on every request
 export async function getStaticProps() {
     // Fetch data from external API
-    const res = await fetch('https://nextjs-website-ashy.vercel.app/api/projects')
+    const res = await fetch('https://blog.fernandogutz.com/wp-json/wp/v2/project?per_page=100')
     const projects = await res.json()
 
     // Pass data to the page via props
