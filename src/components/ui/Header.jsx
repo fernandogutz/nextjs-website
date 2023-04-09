@@ -1,4 +1,4 @@
-import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faClose, faHome, faHomeAlt, faHomeLg } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import React from 'react'
@@ -24,7 +24,7 @@ const Header = () => {
               <label htmlFor="checkMenu" id="xMenu" className="header__btn">
                   Cerrar <i><FontAwesomeIcon icon={faClose} /></i>
               </label>
-              <Link id="home" href="/">Inicio</Link>
+              <Link id="home" href="/"><i><FontAwesomeIcon icon={faHomeLg} /></i></Link>
               <Link id="portfolio" href="/portfolio">Portfolio</Link>
               <Link id="skills" href="/skills">Skills</Link>
               <Link id="blog" href="/blog">Blog</Link>
