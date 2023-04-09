@@ -1,6 +1,7 @@
 import Skills from '@/components/skills/Skills'
 import Footer from '@/components/ui/Footer'
 import Header from '@/components/ui/Header'
+import { setActiveMenuLink } from '@/functions/setActiveMenuLink'
 import React from 'react'
 
 const SkillsPage = ({ skills }) => {
