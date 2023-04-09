@@ -4,6 +4,11 @@ import Header from '@/components/ui/Header'
 import React from 'react'
 
 const SkillsPage = ({ skills }) => {
+
+    useEffect(() => {
+        setActiveMenuLink('skills');
+      }, [])
+
     return (
         <>
             <Header></Header>

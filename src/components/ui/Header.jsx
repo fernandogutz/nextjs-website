@@ -26,7 +26,7 @@ const Header = () => {
               </label>
               <Link id="home" href="/">Inicio</Link>
               <Link id="portfolio" href="/portfolio">Portfolio</Link>
-              <Link id="blog" href="/skills">Skills</Link>
+              <Link id="skills" href="/skills">Skills</Link>
               <Link id="blog" href="/blog">Blog</Link>
               <Link id="about" href="/about">Sobre mí</Link>
               <Link id="contact" href="/contact">Contacto</Link>
