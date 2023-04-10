@@ -24,7 +24,7 @@ const Header = () => {
               <label htmlFor="checkMenu" id="xMenu" className="header__btn">
                   Cerrar <i><FontAwesomeIcon icon={faClose} /></i>
               </label>
-              <Link id="home" href="/"><i><FontAwesomeIcon icon={faHomeLg} /></i></Link>
+              <Link id="home" href="/">Inicio</Link>
               <Link id="portfolio" href="/portfolio">Portfolio</Link>
               <Link id="skills" href="/skills">Skills</Link>
               <Link id="blog" href="/blog">Blog</Link>
