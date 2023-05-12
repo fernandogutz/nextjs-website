@@ -55,6 +55,12 @@ export default function handler(req, res) {
                 "urlImg": "figma.png",
                 "title": "Figma",
             },
+            
+            {
+                "tag": "back",
+                "urlImg": "nodejs.png",
+                "title": "Node.js",
+            },
 
             {
                 "tag": "back",
@@ -72,12 +78,6 @@ export default function handler(req, res) {
                 "tag": "back",
                 "urlImg": "wordpress.png",
                 "title": "WordPress",
-            },
-
-            {
-                "tag": "back",
-                "urlImg": "nodejs.png",
-                "title": "Node.js",
             },
 
             {
