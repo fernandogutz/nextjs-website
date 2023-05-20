@@ -9,7 +9,7 @@ const HeroHome = () => {
 
           <div className="HeroHome__content">
             <p className="hero__subtitle hero__subtitle--prev"> <span id="heroHand" className="hero__hand">👋</span>  ¡Hola! Soy Fernando</p>
-            <h1 className="hero__title">Frontend <span>Developer</span></h1>
+            <h1 className="hero__title">Software <span>Developer</span></h1>
             {/* <p className="hero__subtitle">Enfocado en la creación de productos y experiencias digitales para proyectos que me inspiran.</p> */}
             <div className="hero__buttons">
               <Link className="hero__btn btn-primary" href="/portfolio">Ver Proyectos</Link>

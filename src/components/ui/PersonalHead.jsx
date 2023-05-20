@@ -3,7 +3,7 @@ import React from 'react'
 const PersonalHead = () => {
   return (
     <>
-      <title>@FernandoGutz | Full Stack Developer</title>
+      <title>@FernandoGutz | Software Developer</title>
       <meta name="description" content="Frontend Web Developer" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.png" />
