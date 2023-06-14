@@ -14,7 +14,7 @@ const PostContent = ({ post }) => {
                 <div className='PostContent'>
                     {
                         post.acf.urlDemo ?
-                            <Link href={post.acf.urlDemo} rel="noreferrer" className="card__link">
+                            <Link href={post.acf.urlDemo} rel="noreferrer" className="card__link" target="_blank">
                                 Visitar
                                 <i className='ExternalLinkIcon'>
                                     <FontAwesomeIcon icon={faExternalLink} />

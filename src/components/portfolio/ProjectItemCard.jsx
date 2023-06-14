@@ -15,7 +15,7 @@ const ProjectItemCard = ({tag, urlImg, urlDemo, altImg, title, description, urlB
           
             {
               urlDemo && 
-                <Link href={urlDemo} rel="noreferrer" className="card__link">
+                <Link href={urlDemo} rel="noreferrer" className="card__link" target="_blank">
                   Visitar
                   <i className='ExternalLinkIcon'>
                     <FontAwesomeIcon icon={faExternalLink} />
