@@ -75,6 +75,12 @@ a {
     padding-left: 4px;
 }
 
+.ExternalLinkIcon {
+    position: relative;
+    top: 1px;
+    padding-left: 8px;
+}
+
 .btn-primary {
     background-color: var(--color1);
     color: var(--bg1);

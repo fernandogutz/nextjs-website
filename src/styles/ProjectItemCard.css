@@ -46,6 +46,12 @@
     cursor: pointer;
 }
 
+.card__linksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (max-width: 750px) {
     .project {
         margin-top: 24px;

@@ -36,11 +36,12 @@ const Projects = ({ projects, limit }) => {
                                 key={project.id}
                                 tag={project.slug}
                                 urlImg={project.acf.img}
+                                urlDemo={project.acf.urlDemo}
                                 altImg={project.slug}
                                 title={project.title.rendered}
                                 description={project.excerpt.rendered}
                                 urlBtn={project.slug}
-                                textBtn='Detalles del proyecto'
+                                textBtn='Ver detalles'
                             />
 
                         : null

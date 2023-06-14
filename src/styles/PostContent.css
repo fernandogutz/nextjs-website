@@ -26,6 +26,7 @@
 .Post__featuredImg {
     width: 100%;
     border-radius: 12px;
+    border: 1px solid var(--bg4);
 }
 
 .PostContent__content p {

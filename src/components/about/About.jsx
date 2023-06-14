@@ -25,7 +25,7 @@ const About = ({ skills }) => {
                     Con una mentalidad centrada en el usuario, me dedico a comprender profundamente los problemas de las personas y co-crear soluciones tecnológicas relevantes con ellos. 
                     <br />
                     <br />
-                    Actualmente me especializo en Frontend con React y Next.js, aunque también suelo usar PHP, JavaScript ES6+, jQuery, SQL y CMS WordPress. 
+                    Actualmente me especializo en Frontend con React y Next.js, aunque también suelo usar PHP, Vainilla JavaScript (ES6+), jQuery, SQL y CMS WordPress. 
                     <br />
                     <br />
                     Conoce más sobre mí en mis redes sociales.
