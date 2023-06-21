@@ -49,6 +49,8 @@ export default function App({ Component, pageProps }) {
           exit={{ opacity: 0 }}
         >
           <Component {...pageProps} />
+          <Analytics />
+
         </motion.div>
       )}
     </AnimatePresence>
