@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { motion, AnimatePresence } from "framer-motion";
 import '@/styles/index.css'
 import '@/styles/HeroHome.css'
