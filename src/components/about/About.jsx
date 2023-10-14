@@ -16,16 +16,16 @@ const About = ({ skills }) => {
                     <span className='primaryColor'>{' />'}</span>
                 </h1>
                 <p className="About__bio">
-                    Me apasiona la creación de productos y experiencias digitales. 
+                    Me apasiona la tecnología y el software, pero mi enfoque va más allá de escribir código o crear productos.
                     <br />
                     <br />
-                    He trabajado con una variedad de empresas en diferentes proyectos, principalmente enfocado en Plataformas Web, desarrollando más de 20 sitios en rubros muy variados.
+                    Mi verdadera pasión radica en aprovechar la tecnología para resolver problemas concretos en las empresas y liderar proyectos con un impacto tangible en las personas, como en el caso de Godkout.com, donde impulsamos el deporte y la competitividad.
                     <br />
                     <br />
-                    Con una mentalidad centrada en el usuario, me dedico a comprender profundamente los problemas de las personas y co-crear soluciones tecnológicas relevantes con ellos. 
+                    He lanzado más de 30 sitios web en colaboración con empresas y profesionales de diversos sectores. 
                     <br />
                     <br />
-                    Actualmente me especializo en Frontend con React y Next.js, aunque también suelo usar PHP, Vainilla JavaScript (ES6+), jQuery, SQL y CMS WordPress. 
+                    Cuento con más de 3 años de experiencia en WordPress, desarrollando plugins y temas con JavaScript y PHP, maquetando con HTML + CSS o herramientas No Code como Elementor, y migrando WordPress tradicional hacia una arquitectura Headless (utilizando Next.js en el Frontend). Lo que más destaco de este período es la gran cantidad de problemas que he resuelto para mis clientes y empleadores, automatizando partes de su negocio, aumentando su visibilidad y obteniendo más conversiones.
                     <br />
                     <br />
                     Conoce más sobre mí en mis redes sociales.
