@@ -15,7 +15,7 @@ const AboutCard = () => {
                         Sobre Mí 
                     <span className='primaryColor'>{' />'}</span>
                 </h2>
-                <p>Soy un desarrollador de software especialista CMS.</p>
+                <p>Soy un desarrollador de software Especialista en CMS.</p>
                 <br></br>
                 <p>Cuento con más de 3 años de experiencia en WordPress y he lanzado más de 30 sitios web en colaboración con empresas y profesionales de diversos sectores.</p>
                 <Link className="card__link" href='/about'>Más sobre mí <i className='AngleRightIcon'><FontAwesomeIcon icon={faAngleRight} /></i></Link>
