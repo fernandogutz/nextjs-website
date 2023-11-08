@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const ProjectItemCard = ({tag, urlImg, urlDemo, altImg, title, description, urlBtn, textBtn}) => {
   return (
-    <article className="project" data-aos="fade-up">
+    <article className="project show" data-aos="fade-up">
       {/* <h4 className="project__tag">{tag}</h4> */}
       <img className="project__img" src={urlImg} alt={altImg}/>
       <section className="project__contentSection">

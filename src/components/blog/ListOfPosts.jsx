@@ -15,7 +15,7 @@ const ListOfPosts = ({ posts, limit = 999 }) => {
 
     return (
         <div className='ListOfPosts'>
-            <h2 className="titleOfSection">
+            <h2 className="titleOfSection show">
                 <span className='primaryColor'>{'< '}</span>
                 Blog
                 <span className='primaryColor'>{' />'}</span>

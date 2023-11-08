@@ -1,5 +1,5 @@
 .containerFooter {
-    background-color: #070707;
+    background-color: var(--bg2);
     padding: 15px 0px;
     display: flex;
     justify-content: center;

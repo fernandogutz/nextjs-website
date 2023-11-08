@@ -15,13 +15,13 @@ const Projects = ({ projects, limit }) => {
 
     return (
         <div className="Projects">
-            <h2 className="titleOfSection">
+            <h2 className="titleOfSection show">
                 <span className='primaryColor'>{'< '}</span>
                 Portfolio
                 <span className='primaryColor'>{' />'}</span>
             </h2>
 
-            <div className='techFilters'>
+            <div className='techFilters show'>
                 <button className='activeCategoryProjects' id='plataforma' onClick={onCategoryChange}>Aplicaciones web</button>
                 <button id='website' onClick={onCategoryChange}>Sitios web</button>
                 <button id='ecommerce' onClick={onCategoryChange}>E-Commerce</button>

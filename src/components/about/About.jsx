@@ -8,7 +8,7 @@ const About = ({ skills }) => {
 
             <div className="About">
                 <div className="About__img" width="300" height="300">
-                    <Image src="/fernando.jpg" fill alt="Fernando Gutz Full Stack Developer" />
+                    <Image src="/fernandogutz.jpg" fill alt="Fernando Gutz Full Stack Developer" />
                 </div>
                 <h1 className="titleOfSection About__title">
                     <span className='primaryColor'>{'< '}</span>

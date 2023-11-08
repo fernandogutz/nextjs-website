@@ -12,7 +12,7 @@
 }
 .project__img {
     width: 100%;
-    height: 300px;
+    height: auto;
     object-fit: cover;
 }
 .project__contentSection {

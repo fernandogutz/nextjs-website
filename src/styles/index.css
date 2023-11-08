@@ -13,17 +13,19 @@ html {
 }
 
 :root {
-    --bg1: #101010;
-    --bg2: #181818;
-    --bg3: #1e1e1e;
-    --bg4: #282828;
-    --bg5: #838383;
-    --color1: #ffffff;
-    --color2: #f5f5f5;
-    --color3: #e4e4e4;
-    --color4: #d6d6d6;
-    --color5: #b9b9b9;
-    --primary: #EFB810;
+    --bg1: #001F29; /* Fondo principal - Negro */
+    --bg2: #002937; /* Fondo secundario */
+    --bg3: #00303f; /* Otros elementos de fondo */
+    --bg4: #003648; /* Acentos o elementos destacados */
+    --bg5: #027ba4; /* Fondos azules */
+
+    --color1: #ffffff; /* Texto principal - Blanco */
+    --color2: #f5f5f5; /* Otros textos */
+    --color3: #e4e4e4; /* Otros textos */
+    --color4: #d6d6d6; /* Texto secundario */
+    --color5: #c1efff; /* Otros textos */
+
+    --primary: #0CF0F0; /* Color primario (celeste fluor) */
 }
 
 *::selection {
@@ -138,3 +140,25 @@ a {
 }
 
 
+@keyframes show {
+
+    from {
+        opacity: 0;
+        scale: 60%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+    
+}
+
+.show, .PostContent__content p, .PostContent__content h2, .PostContent__content h3, .PostContent__content pre {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}

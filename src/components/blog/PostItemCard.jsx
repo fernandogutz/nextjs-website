@@ -6,7 +6,7 @@ import React from 'react'
 
 const PostItemCard = ({id, category, date, title, excerpt, slug}) => {
   return (
-    <article className="PostItemCard" key={id}>
+    <article className="PostItemCard show" key={id}>
         <p className="PostItemCard__category">{category}</p>
         <Link href={`/blog/${slug}`}><h2 className="PostItemCard__title">{title}</h2></Link>
         <p className="PostItemCard__date">{setFormatDate(date)}</p>

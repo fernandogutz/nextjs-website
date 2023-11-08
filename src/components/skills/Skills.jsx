@@ -15,13 +15,13 @@ const Skills = ({listOfSkills}) => {
 
     return (
         <div className='Skills'>
-            <h2 className="titleOfSection">
+            <h2 className="titleOfSection show">
                 <span className='primaryColor'>{'< '}</span> 
                     Skills 
                 <span className='primaryColor'>{' />'}</span>
             </h2>
 
-            <div className='techFilters'>
+            <div className='techFilters show'>
                 <button className='activeCategory' id='all' onClick={onCategoryChange}>All</button>
                 <button id='front' onClick={onCategoryChange}>Front</button>
                 <button id='back' onClick={onCategoryChange}>Back</button>
