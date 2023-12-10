@@ -13,19 +13,19 @@ html {
 }
 
 :root {
-    --bg1: #001F29; /* Fondo principal - Negro */
-    --bg2: #002937; /* Fondo secundario */
-    --bg3: #00303f; /* Otros elementos de fondo */
-    --bg4: #003648; /* Acentos o elementos destacados */
-    --bg5: #027ba4; /* Fondos azules */
+    --bg1: #0a0a0a; /* Fondo principal - Negro */
+    --bg2: #101010; /* Fondo secundario */
+    --bg3: #1e1e1e; /* Otros elementos de fondo */
+    --bg4: #222222; /* Acentos o elementos destacados */
+    --bg5: #606060; /* Fondos azules */
 
     --color1: #ffffff; /* Texto principal - Blanco */
     --color2: #f5f5f5; /* Otros textos */
     --color3: #e4e4e4; /* Otros textos */
     --color4: #d6d6d6; /* Texto secundario */
-    --color5: #c1efff; /* Otros textos */
+    --color5: #d0d0d0; /* Otros textos */
 
-    --primary: #0CF0F0; /* Color primario (celeste fluor) */
+    --primary: #0D49FD; /* Color primario (celeste fluor) */
 }
 
 *::selection {
