@@ -1,4 +1,4 @@
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faInstagram, faLinkedinIn, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
 
@@ -11,33 +11,34 @@ const About = ({ skills }) => {
                     <Image src="/fernandogutz.jpg" fill alt="Fernando Gutz Full Stack Developer" />
                 </div>
                 <h1 className="titleOfSection About__title">
-                    <span className='primaryColor'>{'< '}</span>
-                    Sobre Mí
-                    <span className='primaryColor'>{' />'}</span>
+                    Fernando Gutiérrez
                 </h1>
                 <p className="About__bio">
-                    Me apasiona la tecnología y el software, pero mi enfoque va más allá de escribir código o crear productos.
+                    Diseñador y desarrollador web especialista en sistemas CMS.
                     <br />
                     <br />
-                    Mi verdadera pasión radica en aprovechar la tecnología para resolver problemas concretos en las empresas y liderar proyectos con un impacto tangible en las personas, como en el caso de Godkout.com, donde impulsamos el deporte y la competitividad.
+                    Me dedico a utilizar la tecnología para resolver problemas muy concretos en empresas, tales como la automatización de procesos, el aumento de la tasa de conversión, y el alcance y retención de clientes.
                     <br />
                     <br />
-                    He lanzado más de 30 sitios web en colaboración con empresas y profesionales de diversos sectores. 
+                    También disfruto mucho ejecutando proyectos para servir directamente a las personas, como en el caso de Godkout.com, plataforma en la cual gestionamos eventos deportivos y premiamos la disciplina, trabajo en equipo y competitividad.
                     <br />
                     <br />
-                    Cuento con más de 3 años de experiencia en WordPress, desarrollando plugins y temas con JavaScript y PHP, maquetando con HTML + CSS o herramientas No Code como Elementor, y migrando WordPress tradicional hacia una arquitectura Headless (utilizando Next.js en el Frontend). Lo que más destaco de este período es la gran cantidad de problemas que he resuelto para mis clientes y empleadores, automatizando partes de su negocio, aumentando su visibilidad y obteniendo más conversiones.
+                    En los últimos años, he liderado el lanzamiento de más de 30 sitios web y plataformas, trabajando en colaboración con profesionales y empresas de sectores diversos, incluyendo Automotriz, Ingeniería, E-Commerce y Astronomía, especializándome con el tiempo en Salud y Bienestar.
+                    <br />
+                    <br />
+                    Cuento con más de 3 años de experiencia en WordPress, desarrollando plugins y temas con JavaScript y PHP, maquetando con HTML + CSS o herramientas No Code como Elementor, y migrando desde el CMS tradicional hacia una arquitectura Headless (utilizando Next.js en el Frontend).
                     <br />
                     <br />
                     Conoce más sobre mí en mis redes sociales.
                 </p>
                 <div className="contact__rrss">
                     <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>
-                    {/* <a className="btn-primary" href="https://www.instagram.com/fernandogutzz/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a> */}
-                    <a className="btn-primary" href="https://github.com/fernandogutz" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faGithub} /></i></a>
+                    <a className="btn-primary" href="https://www.youtube.com/channel/UCmaIhfDbhOOySR3nCyTRvjA" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faYoutube} /></i></a>
+                    <a className="btn-primary" href="https://www.instagram.com/fernandogutz__/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faInstagram} /></i></a>
                 </div>
 
             </div>
-            
+
         </div>
 
     )
