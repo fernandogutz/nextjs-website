@@ -6,7 +6,7 @@ const AboutCard = () => {
     return (
         <div className="about-card">
             <div className="about-card__img show">
-                <img src='/fernandogutz.jpg' alt="Fernando Gutiérrez" />
+                <img src='/newProfile.jpg' alt="Fernando Gutiérrez" />
             </div>
 
             <section className="about-card__content ">

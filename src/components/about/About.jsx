@@ -8,28 +8,31 @@ const About = ({ skills }) => {
 
             <div className="About">
                 <div className="About__img" width="300" height="300">
-                    <Image src="/fernandogutz.jpg" fill alt="Fernando Gutz Full Stack Developer" />
+                    <Image src="/newProfile.jpg" fill alt="Fernando Gutz Full Stack Developer" />
                 </div>
                 <h1 className="titleOfSection About__title">
                     Fernando Gutiérrez
                 </h1>
                 <p className="About__bio">
-                    Diseñador y desarrollador web especialista en sistemas CMS.
+                    Diseñador y Programador Web.
                     <br />
                     <br />
-                    Me dedico a utilizar la tecnología para resolver problemas muy concretos en empresas, tales como la automatización de procesos, el aumento de la tasa de conversión, y el alcance y retención de clientes.
+                    Me dedico a desarrollar sitios web, plataformas y academias online para expertos en distintas industrias.
+                    <br />
+                    <br />
+                    En los últimos años, he lanzado más de 50 sitios web y plataformas, trabajando en colaboración con profesionales y empresas de sectores diversos, incluyendo Automotriz, Ingeniería, E-Commerce y Astronomía, especializándome con el tiempo en Salud y Deporte.
                     <br />
                     <br />
                     También disfruto mucho ejecutando proyectos para servir directamente a las personas, como en el caso de Godkout.com, plataforma en la cual gestionamos eventos deportivos y premiamos la disciplina, trabajo en equipo y competitividad.
                     <br />
                     <br />
-                    En los últimos años, he liderado el lanzamiento de más de 30 sitios web y plataformas, trabajando en colaboración con profesionales y empresas de sectores diversos, incluyendo Automotriz, Ingeniería, E-Commerce y Astronomía, especializándome con el tiempo en Salud y Bienestar.
+                    Cuento con amplia experiencia en CMS (Content Management Systems) como WordPress, tecnología con la cual en los últimos 3 años he desarrollado múltiples plugins y temas personalizados con JavasCript y PHP, también he maquetando plantillas con HTML + CSS, y en muchos casos con herramientas No Code como Elementor.
                     <br />
                     <br />
-                    Cuento con más de 3 años de experiencia en WordPress, desarrollando plugins y temas con JavaScript y PHP, maquetando con HTML + CSS o herramientas No Code como Elementor, y migrando desde el CMS tradicional hacia una arquitectura Headless (utilizando Next.js en el Frontend).
+                    También he migrado varios proyectos desde el CMS tradicional hacia una arquitectura Headless, utilizando Next.js en frontend (una de mis tecnologías favoritas).
                     <br />
                     <br />
-                    Conoce más sobre mí en mis redes sociales.
+                    Si deseas contactarme puedes escribir un correo en hello@fernandogutz.com o buscarme en redes sociales:
                 </p>
                 <div className="contact__rrss">
                     <a className="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedinIn} /></i></a>

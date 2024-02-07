@@ -26,6 +26,7 @@ html {
     --color5: #d0d0d0; /* Otros textos */
 
     --primary: #0D49FD; /* Color primario (celeste fluor) */
+    --primaryAlt: #4170ff; /* Color primario (celeste fluor) */
 }
 
 *::selection {
@@ -63,7 +64,7 @@ h3 {
 }
 
 a {
-    color: var(--primary);
+    color: var(--primaryAlt);
 }
 
 .separator {
@@ -84,12 +85,12 @@ a {
 }
 
 .btn-primary {
-    background-color: var(--color1);
-    color: var(--bg1);
+    background-color: var(--primary);
+    color: var(--color1);
 }
 
 .btn-primary:hover {
-    background-color: var(--primary);
+    background-color:  var(--primaryAlt);
 }
 
 .btn-secondary {
